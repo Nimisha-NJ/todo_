@@ -1,86 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:"Poppins" , sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg , #153677 ,#4e085f);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container{
-    background-color: #fff;
-    width: 500px;
-    padding: 25px;
-    border-radius: 10px;
+.container {
+  background-color: #fff;
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
 }
-.todo-header{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+.todo-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
-.todo-header img{
-    width: 30px;
-    margin-left: 10px;
+.todo-header img {
+  width: 30px;
+  margin-left: 10px;
 }
-.todo-body{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #edeef0;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+.todo-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
 }
-input{
-    flex: 1;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    padding: 10px;
-    font-weight: 14px;
-   
-
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: 14px;
 }
 
-button{
-    border: none;
-    outline: none;
-    padding: 16px 50px;
-    background-color: #ff5945;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 16px;
-    cursor: pointer;
-
-
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background-color: #ff5945;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-ul li{
-    list-style: none;
-    font-size: 17px;
-    padding: 12px 8px 12px 80px ;
-    cursor: pointer;
-    user-select: none;
-    position: relative;
-}
-ul li::before{
-    content: "";
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image: url(./images/unchecked.png);
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
-}
+ ul li{
+   list-style: none;
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
+ }
+ li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  word-wrap: break-word;
+ }
 
-ul li span{
-    margin-right: 5px;
-}
+
+
+
+
+
